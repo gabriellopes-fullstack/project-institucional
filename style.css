@@ -1,8 +1,18 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     text-decoration: none;
     text-transform: capitalize;
+}
+
+.header {
+    background-color: white;
+    border-bottom: 1px solid;
+}
+
+.header section{
+    display: flex;
+    align-items: center;
 }
