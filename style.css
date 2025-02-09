@@ -1,18 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     text-decoration: none;
     text-transform: capitalize;
+    box-sizing: border-box;
 }
 
-.header {
-    background-color: white;
-    border-bottom: 1px solid;
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
-.header section{
+header {
+    width: 100%;
+    background-color: darksalmon;
+}
+
+.top-header > .interface {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.top-header {
+    background-color: #000;
+    padding: 20px 4%;
+}
+
+.top-header .logotipo img {
+    max-width: 300px;
+}
+
+.top-header .btn-social button{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid darksalmon;
+    cursor: pointer;
+}
+
+.doacao a {
+    font-size: 20px;
+    background-color: darksalmon;
+    padding: 12px;
+    border-radius: 50px;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.doacao a:hover {
+    color: #000;
+    letter-spacing: 2px;
+    transition: .6s;
+}
+
+.btn-social i{
+    color: darksalmon;
+}
+
+.bottom-header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.bottom-header nav ul li a{
+    color: #000;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+    transition: linear .2s
+}
+
+.bottom-header nav ul li a:hover {
+    background-color: #000;
+    color: #fff;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.drop-hover {
+    position: relative;
+}
+
+.drop-hover .drop {
+    position: absolute;
+    background-color: darksalmon;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.drop-hover .drop a{
+    padding: 20px;
+}
+
+.drop-hover:hover .drop{
+    height: 320px;
 }
