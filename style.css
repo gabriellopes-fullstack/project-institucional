@@ -205,5 +205,46 @@ header {
     padding: 1rem 0;
 }
 
+.section-title {
+    color: cornsilk;
+}
+
+.dish-heart {
+    max-width: 40vh;
+}
+
+.dish-title {
+    font-size: 1.8rem;
+    color: cornsilk;
+}
+
+.dish-description {
+    font-size: 1rem;
+    color: cornsilk;
+}
+
+.btn-menu {
+    color: coral;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.dish {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    gap: 18px;
+    width: 25%;
+    padding: ;
+    margin-top: 32px;
+}
 
 
