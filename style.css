@@ -210,21 +210,30 @@ header {
 }
 
 .dish-heart {
+    position: absolute;
     max-width: 40vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    right: -10px;
+    top: -10px;
 }
 
 .dish-title {
     font-size: 1.8rem;
-    color: cornsilk;
+    color: #061731;
 }
 
 .dish-description {
     font-size: 1rem;
-    color: cornsilk;
+    color: #061731;
 }
 
 .btn-menu {
-    color: coral;
+    color: crimson;
 }
 
 .menu {
@@ -236,15 +245,24 @@ header {
 }
 
 .dish {
-    width: 100%;
+    width: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 20px;
     gap: 18px;
-    width: 25%;
-    padding: ;
+    border-radius: 20px;
+    padding: 35px;
     margin-top: 32px;
+    background-color: cornsilk;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
+.dishes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+}
 
