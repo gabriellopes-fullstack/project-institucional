@@ -340,6 +340,13 @@ footer {
     border-radius: 10px;
 }
 
+.content-rodape a:hover{
+    letter-spacing: 0.25rem;
+    transition: 1s;
+    color: crimson;
+    border-radius: 30px;
+}
+
 .producedby-gabriellopes {
     background: crimson;
     padding: 10px;
@@ -362,4 +369,4 @@ footer {
 .description-dev span {
     font-weight: bold;
     font-family: Dancing Script;
-}
+}   
