@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 * {
     padding: 0;
@@ -8,6 +7,7 @@
     text-decoration: none;
     text-transform: capitalize;
     box-sizing: border-box;
+    font-family: Poppins;
 }
 
 body {
@@ -121,11 +121,11 @@ header {
 }
 
 .drop-hover .drop a{
-    padding: 20px;
+    padding: 15px;
 }
 
 .drop-hover:hover .drop{
-    height: 320px;
+    height: 400px;
 }
 
 .caixa-header {
@@ -300,6 +300,66 @@ header {
 }
 
 footer {
-    background-color: cornsilk;
+    background-color: #061731;
 }
 
+.content-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.content-description p {
+    color: cornsilk;
+}
+
+.content-rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(220, 20, 60, 0.929);
+    padding: 4rem   ;
+}
+
+.content-rodape h2 {
+    color: #061731;
+    font-size: 2em;
+}
+
+.content-rodape p {
+    color: #061731;
+    font-size: 1em;
+    text-transform: none;
+}
+
+.content-rodape a{
+    background: #061731;
+    color: cornsilk;
+    font-size: 1.5em;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.producedby-gabriellopes {
+    background: crimson;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-dev {
+    display: flex;
+    justify-content: center;
+}
+
+.description-dev p {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+
+
+.description-dev span {
+    font-weight: bold;
+    font-family: Dancing Script;
+}
