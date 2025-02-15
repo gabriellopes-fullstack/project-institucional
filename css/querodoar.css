@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    background-color: #061731;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: 061731;
+}
+
+.top-header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-header {
+    background-color: #061731;
+    padding: 20px 4%;
+}
+
+.top-header .logotipo img {
+    max-width: 300px;
+}
+
+.top-header .btn-social button{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid cornsilk;
+    cursor: pointer;
+}
+
+.doacao a {
+    font-size: 20px;
+    background-color: crimson;
+    padding: 12px;
+    border-radius: 50px;
+    color: #061731;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.doacao a:hover {
+    color: cornsilk;
+    letter-spacing: 2px;
+    transition: .4s;
+    border: 2px solid cornsilk;
+}
+
+.btn-social i{
+    color: cornsilk;
+}
+
+.btn-social i:hover {
+    color: crimson;
+}
+
+.btn-social button:hover {
+    border: 2px solid crimson;
+}
+
+.bottom-header {
+    border: solid cornsilk;
+    border-left: none;
+    border-right: none;
+}
+
+.bottom-header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.bottom-header nav ul li a{
+    color: cornsilk;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+    transition: linear .2s;
+}
+
+.bottom-header nav ul li a:hover {
+    background-color: #061731;
+    color:  crimson;
+}
+
+.drop-hover {
+    position: relative;
+}
+
+.drop-hover .drop {
+    position: absolute;
+    background-color: #061731;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.drop-hover .drop a{
+    padding: 15px;
+}
+
+.drop-hover:hover .drop{
+    height: 400px;
+}
+
+.caixa-header {
+    background-image: url(img/img-nuvem.jpg);
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    padding: 5em;
+    padding-right: 1em;
+}
+
+.caixa-header aside {
+    margin: 10px;
+    margin-left: 15px;
+}
+
+.contact {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    background: #000;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    color: #fff;
+    display: inline-block;
+}
+
+.home-container {
+    background: url(../img/img-nuvem.jpg);
+    height: 60vh;
+    background-position: top;
+    background-size: cover;
+}
+
+.home-container section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8rem;
+}
+
+.home-container section p{
+    padding-left: 5rem;
+    align-items: center;
+}
+
+.content {
+    max-width: 60rem;
+}
+
+.content h3 {
+    color: #061731;
+    font-size: 60px;
+}
+
+.content h4 {
+    color: #061731;
+    font-size: 40px;
+}
+
+.content h6 {
+    color: #061731;
+    font-size: 30px;
+    padding-left: 12rem;
+}
+
+.content p {
+    color: #061731;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1;
+    padding: 1rem 0;
+}
+
+.section-title {
+    color: cornsilk;
+}
+
+.dish-heart {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    right: -0px;
+    top: -0px;
+}
+
+.section-title {
+    padding-top: 4rem;
+    font-size: 1.8rem;
+    color: cornsilk;
+}
+
+.section-subtitle {
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    color: cornsilk;
+}
+
+.section-subtitle span {
+    color: crimson
+}
+
+
+
+.dish-description {
+    font-size: 1rem;
+    color: #061731;
+}
+
+.btn-menu {
+    color: crimson;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-bottom: 10rem       ;
+}
+
+.dish {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    border-radius: 30px;
+    padding: 35px;
+    margin-top: 32px;
+    background-color:  cornsilk;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.dish span {
+    text-align: justify;
+}
+
+.dish a {
+    color: cornsilk;
+    background-color: #061731;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.dish a:hover {
+    color: crimson;
+    letter-spacing: 2px;
+    transition: linear 0.4s;
+}
+
+.dish img {
+    border-radius: 10%;
+}
+
+#dishes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+footer {
+    background-color: #061731;
+}
+
+.content-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.content-description p {
+    color: cornsilk;
+}
+
+.content-rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(220, 20, 60, 0.929);
+    padding: 4rem   ;
+}
+
+.content-rodape h2 {
+    color: #061731;
+    font-size: 2em;
+}
+
+.content-rodape p {
+    color: #061731;
+    font-size: 1em;
+    text-transform: none;
+}
+
+.content-rodape a{
+    background: #061731;
+    color: cornsilk;
+    font-size: 1.5em;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.content-rodape a:hover{
+    letter-spacing: 0.25rem;
+    transition: 1s;
+    color: crimson;
+    border-radius: 30px;
+}
+
+.producedby-gabriellopes {
+    background: crimson;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-dev {
+    display: flex;
+    justify-content: center;
+}
+
+.description-dev p {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+
+
+.description-dev span {
+    font-weight: bold;
+    font-family: Dancing Script;
+}  
+
+.description-main {
+    padding: 3rem;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-main img{
+    padding: 3rem;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.description-main h2 {
+    color: cornsilk;
+    padding-top: 2rem;
+}
+
+.description-main ul li {
+    padding-top: 1rem;
+    color: cornsilk;
+}
+
+.description-main P {
+    padding-top: 1rem;
+    color: cornsilk;
+}
