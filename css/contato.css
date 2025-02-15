@@ -400,3 +400,41 @@ footer {
     padding-top: 1rem;
     color: cornsilk;
 }
+
+.contact-form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-form p{
+    color: cornsilk;
+    padding: 6rem;
+}
+
+.contact-content {
+    padding-left: 8rem;
+}
+
+#title-contact {
+    color: cornsilk;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.form-content {
+    width: 100%;
+    padding: 3rem;
+}
+.form-content input {
+    padding: 1rem;
+    width: 100%;
+    margin: 1em;
+    background-color: cornsilk  ;
+}
+
+.btn-form button{
+    align-items: center;
+    justify-content: center;
+}
