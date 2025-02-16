@@ -468,3 +468,13 @@ footer {
     color: cornsilk;
     text-align: justify;
 }
+
+.menu-imgs {
+    padding: 3rem;
+}
+
+.img-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
