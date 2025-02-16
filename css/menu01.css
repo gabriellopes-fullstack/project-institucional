@@ -453,3 +453,18 @@ footer {
     margin: 1em;
     background-color: cornsilk;
 }
+
+.content-menu01 {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 8rem;
+}
+
+.content-menu01 h2 {
+    color: cornsilk;
+}
+
+.content-menu01 p {
+    color: cornsilk;
+    text-align: justify;
+}
