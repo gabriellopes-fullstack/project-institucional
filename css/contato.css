@@ -406,9 +406,20 @@ footer {
     justify-content: space-around;
 }
 
+.contact-form textarea{
+    padding: 1rem;
+    width: 100%;
+    margin: 1em;
+    background-color: cornsilk;
+}
+
 .contact-form p{
     color: cornsilk;
-    padding: 6rem;
+    padding-top: 4em;
+}
+
+.contact-form form {
+    width: 50%;
 }
 
 .contact-content {
@@ -431,10 +442,15 @@ footer {
     padding: 1rem;
     width: 100%;
     margin: 1em;
-    background-color: cornsilk  ;
+    background-color: cornsilk;
 }
 
 .btn-form button{
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    margin: 1em;
+    background-color: cornsilk;
 }
