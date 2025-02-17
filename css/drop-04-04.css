@@ -479,3 +479,7 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+#img-drop04-livro {
+    width: 80vh;
+}
