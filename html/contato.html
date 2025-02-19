@@ -94,17 +94,17 @@
                     <h2>Entre em contato</h2>
                 </div>
                 <div class="contact-form">
-                    <form action="" class="form-content">
-                        <input type="text" placeholder="Nome">
+                    <form method="post" action="envia.php" class="form-content">
+                        <input type="text" id="nome" name="nome" required autocomplete="off" placeholder="Nome">
                         <br>
-                        <input type="email" placeholder="E-mail">
+                        <input type="email" id="email" name="email" required autocomplete="off" placeholder="E-mail">
                         <br>
-                        <input type="number" placeholder="Telefone">
+                        <input type="number" id="telefone" name="telefone" required autocomplete="off" placeholder="Telefone">
                         <br>
-                        <textarea  name="" id="" class="contact-form" placeholder="Mensagem"></textarea>
+                        <textarea  name="mensagem" id="mensagem" class="contact-form" required autocomplete="off" placeholder="Mensagem"></textarea>
 
                         <div class="btn-form">
-                            <button type="button">Enviar</button>
+                            <button type="submit">Enviar</button>
                         </div>
                     </form>
                         <p>
